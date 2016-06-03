@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>机动车尾气排放监控系统平台</title>
+    <link href="@ViewBag.ApplicationPath/Assets/sea-modules/app/app/1.0.0/cuio-v1.1.css" rel="stylesheet" />
+    <link href="@ViewBag.ApplicationPath/Assets/sea-modules/extend/bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet" />
+    <link href="@ViewBag.ApplicationPath/Assets/sea-modules/extend/bootstrap/3.3.2/main.css" rel="stylesheet" />
+    <link href="@ViewBag.ApplicationPath/Assets/sea-modules/jquery/dataTables/1.10.4/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="@ViewBag.ApplicationPath/Assets/sea-modules/extend/bootstrapdialog/3.3.2/bootstrap-dialog.css" rel="stylesheet" />
+    <script type="text/javascript" src="@ViewBag.ApplicationPath/Assets/sea-modules/seajs/seajs/2.3.0/sea.js" id="seajsnode"></script>
+    <script type="text/javascript" src="@ViewBag.ApplicationPath/Assets/sea-modules/seajs/seajs/2.3.0/seajs-css.js" id="seajsnode"></script>
+    <script type="text/javascript" src="@ViewBag.ApplicationPath/Assets/sea-modules/sea-config.js"></script>
+    <script type="text/javascript">
+		seajs.config({
+			base: '@ViewBag.ApplicationPath/assets'
+		});
+
+		window.BASE_PATH = '@ViewBag.ApplicationPath';
+
+
+
+	
+    </script>
+</head>
+<body>
+    <header>
+        <div class="hd">
+            <div class="hd-wrapper">
+                @*<h1 class="logo"><a href="" title="机动车尾气排放监控平台">机动车尾气排放监控平台</a></h1>*@
+                <h2 class="hd-title">杭州携蓝环保科技有限公司-机动车尾气排放监控平台 </h2>
+                <div class="hd-toolkit">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper_950 mbw">
+        <ul class="nav nav-pills" >
+            @Html.Raw(@ViewBag.Menus)
+        </ul>
+    </div>
+    <div id="body" class="wrapper_950" style="min-height:500px;">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+    <footer>
+        <h4 class="text-center">联系电话：18917332795 &nbsp;&nbsp;邮箱：hzxlhbkj@sina.com</h4>
+    </footer>
+</body>
+</html>

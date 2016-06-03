@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="cardbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CarInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NO" Type="varchar" MaxLength="50" />
+          <Property Name="Category" Type="varchar" MaxLength="50" />
+          <Property Name="Belong" Type="varchar" MaxLength="50" />
+          <Property Name="EngineNo" Type="varchar" MaxLength="50" />
+          <Property Name="OriginalEmissionValues" Type="varchar" MaxLength="50" />
+          <Property Name="ProductModel" Type="varchar" MaxLength="50" />
+          <Property Name="ModifiedTime" Type="datetime" />
+          <Property Name="UserInfo" Type="nvarchar" MaxLength="50" />
+          <Property Name="IndividualCompany" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telphone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Data_CreateTime" Type="datetime" />
+          <Property Name="Data_LastChangeTime" Type="datetime" />
+          <Property Name="Color" Type="nvarchar" MaxLength="50" />
+          <Property Name="ModifiedCompany" Type="nvarchar" MaxLength="50" />
+          <Property Name="CarType" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="CarNoBlong">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NO" Type="varchar" MaxLength="50" />
+          <Property Name="Belong" Type="varchar" MaxLength="50" />
+          <Property Name="CarNo" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="CarNoProvince">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NO" Type="nvarchar" MaxLength="50" />
+          <Property Name="CarNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Province" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="CarStatusInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CarNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProvinceNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="RegionNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="Color" Type="nvarchar" MaxLength="50" />
+          <Property Name="Speed" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="PositionXDegree" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="PositionXM" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="PositionXS" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="PositionYDegree" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="PositionYM" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="PositionYS" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="TemperatureBefore" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="TemperatureAfter" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="SensorNum" Type="decimal" Precision="18" Scale="1" />
+          <Property Name="LiquidHeight" Type="int" />
+          <Property Name="SystemStatus" Type="int" />
+          <Property Name="Data_CreateTime" Type="datetime" />
+          <Property Name="Data_LastChangeTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CarType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NO" Type="int" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="InputCarStatusInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cardstatusinfo" Type="nvarchar(max)" />
+          <Property Name="DataChange_LastTime" Type="datetime" />
+        </EntityType>
+        <EntityContainer Name="cardbModelStoreContainer">
+          <EntitySet Name="CarInfo" EntityType="Self.CarInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CarNoBlong" EntityType="Self.CarNoBlong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CarNoProvince" EntityType="Self.CarNoProvince" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CarStatusInfo" EntityType="Self.CarStatusInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CarType" EntityType="Self.CarType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="InputCarStatusInfo" EntityType="Self.InputCarStatusInfo" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="cardbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CarInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Belong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EngineNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OriginalEmissionValues" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ProductModel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+          <Property Name="UserInfo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IndividualCompany" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Telphone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Data_CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="Data_LastChangeTime" Type="DateTime" Precision="3" />
+          <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedCompany" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CarType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CarNoBlong">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Belong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CarNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="CarNoProvince">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CarNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Province" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CarStatusInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CarNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ProvinceNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RegionNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Speed" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PositionXDegree" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PositionXM" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PositionXS" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PositionYDegree" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PositionYM" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PositionYS" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TemperatureBefore" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TemperatureAfter" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="SensorNum" Type="Decimal" Precision="18" Scale="1" />
+          <Property Name="LiquidHeight" Type="Int32" />
+          <Property Name="SystemStatus" Type="Int32" />
+          <Property Name="Data_CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="Data_LastChangeTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="CarType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NO" Type="Int32" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="InputCarStatusInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cardstatusinfo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DataChange_LastTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="cardbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CarInfo" EntityType="Self.CarInfo" />
+          <EntitySet Name="CarNoBlong" EntityType="Self.CarNoBlong" />
+          <EntitySet Name="CarNoProvince" EntityType="Self.CarNoProvince" />
+          <EntitySet Name="CarStatusInfo" EntityType="Self.CarStatusInfo" />
+          <EntitySet Name="CarType" EntityType="Self.CarType" />
+          <EntitySet Name="InputCarStatusInfo" EntityType="Self.InputCarStatusInfo" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="cardbModelStoreContainer" CdmEntityContainer="cardbEntities">
+          <EntitySetMapping Name="CarInfo">
+            <EntityTypeMapping TypeName="cardbModel.CarInfo">
+              <MappingFragment StoreEntitySet="CarInfo">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NO" ColumnName="NO" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Belong" ColumnName="Belong" />
+                <ScalarProperty Name="EngineNo" ColumnName="EngineNo" />
+                <ScalarProperty Name="OriginalEmissionValues" ColumnName="OriginalEmissionValues" />
+                <ScalarProperty Name="ProductModel" ColumnName="ProductModel" />
+                <ScalarProperty Name="ModifiedTime" ColumnName="ModifiedTime" />
+                <ScalarProperty Name="UserInfo" ColumnName="UserInfo" />
+                <ScalarProperty Name="IndividualCompany" ColumnName="IndividualCompany" />
+                <ScalarProperty Name="Telphone" ColumnName="Telphone" />
+                <ScalarProperty Name="Data_CreateTime" ColumnName="Data_CreateTime" />
+                <ScalarProperty Name="Data_LastChangeTime" ColumnName="Data_LastChangeTime" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="ModifiedCompany" ColumnName="ModifiedCompany" />
+                <ScalarProperty Name="CarType" ColumnName="CarType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CarNoBlong">
+            <EntityTypeMapping TypeName="cardbModel.CarNoBlong">
+              <MappingFragment StoreEntitySet="CarNoBlong">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NO" ColumnName="NO" />
+                <ScalarProperty Name="Belong" ColumnName="Belong" />
+                <ScalarProperty Name="CarNo" ColumnName="CarNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CarNoProvince">
+            <EntityTypeMapping TypeName="cardbModel.CarNoProvince">
+              <MappingFragment StoreEntitySet="CarNoProvince">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NO" ColumnName="NO" />
+                <ScalarProperty Name="CarNo" ColumnName="CarNo" />
+                <ScalarProperty Name="Province" ColumnName="Province" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CarStatusInfo">
+            <EntityTypeMapping TypeName="cardbModel.CarStatusInfo">
+              <MappingFragment StoreEntitySet="CarStatusInfo">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CarNo" ColumnName="CarNo" />
+                <ScalarProperty Name="ProvinceNo" ColumnName="ProvinceNo" />
+                <ScalarProperty Name="RegionNo" ColumnName="RegionNo" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Speed" ColumnName="Speed" />
+                <ScalarProperty Name="PositionXDegree" ColumnName="PositionXDegree" />
+                <ScalarProperty Name="PositionXM" ColumnName="PositionXM" />
+                <ScalarProperty Name="PositionXS" ColumnName="PositionXS" />
+                <ScalarProperty Name="PositionYDegree" ColumnName="PositionYDegree" />
+                <ScalarProperty Name="PositionYM" ColumnName="PositionYM" />
+                <ScalarProperty Name="PositionYS" ColumnName="PositionYS" />
+                <ScalarProperty Name="TemperatureBefore" ColumnName="TemperatureBefore" />
+                <ScalarProperty Name="TemperatureAfter" ColumnName="TemperatureAfter" />
+                <ScalarProperty Name="SensorNum" ColumnName="SensorNum" />
+                <ScalarProperty Name="LiquidHeight" ColumnName="LiquidHeight" />
+                <ScalarProperty Name="SystemStatus" ColumnName="SystemStatus" />
+                <ScalarProperty Name="Data_CreateTime" ColumnName="Data_CreateTime" />
+                <ScalarProperty Name="Data_LastChangeTime" ColumnName="Data_LastChangeTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CarType">
+            <EntityTypeMapping TypeName="cardbModel.CarType">
+              <MappingFragment StoreEntitySet="CarType">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NO" ColumnName="NO" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="InputCarStatusInfo">
+            <EntityTypeMapping TypeName="cardbModel.InputCarStatusInfo">
+              <MappingFragment StoreEntitySet="InputCarStatusInfo">
+                <ScalarProperty Name="DataChange_LastTime" ColumnName="DataChange_LastTime" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="cardstatusinfo" ColumnName="cardstatusinfo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

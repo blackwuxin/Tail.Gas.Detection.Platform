@@ -1,0 +1,9 @@
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\bin\Debug\Test.exe.config
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\bin\Debug\Test.exe
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\bin\Debug\Test.pdb
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\bin\Debug\log4net.dll
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\obj\Debug\Test.exe
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\obj\Debug\Test.pdb
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\bin\Debug\EntityFramework.dll
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\bin\Debug\EntityFramework.xml
+D:\wxx\workspace\Tail.Gas.Detection.Platform\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache

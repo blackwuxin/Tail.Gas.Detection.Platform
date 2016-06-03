@@ -1,0 +1,11 @@
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\bin\Debug\TCPService.exe.config
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\bin\Debug\TCPService.exe
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\bin\Debug\TCPService.pdb
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\obj\Debug\TCPService.Service1.resources
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\obj\Debug\TCPService.csproj.GenerateResource.Cache
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\obj\Debug\TCPService.exe
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\obj\Debug\TCPService.pdb
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\obj\Debug\TCPService.ProjectInstaller.resources
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\bin\Debug\log4net.dll
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\bin\Debug\EntityFramework.dll
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\bin\Debug\EntityFramework.xml

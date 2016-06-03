@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+
+    <div id="Content">
+        <div class="Content-Left1">
+            <img src="@ViewBag.ApplicationPath/Assets/sea-modules/app/app/1.0.0/image1.jpg" width="256px" height="340px" />
+        </div>
+        <div class="Content-Left2">
+            <div role="form" class="form-horizontal">
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">用户名称：</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="username" class="form-control" placeholder="用户名称">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="usertype" class="col-sm-2 control-label">类型：</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" id="usertype" required>
+                            <option>监管人员</option>
+                            <option>管理员</option>
+                            <option>顾客</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-2 control-label">密码：</label>
+                    <div class="col-sm-10">
+                        <input type="password" id="password" class="form-control" placeholder="密码" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="validateCode" class="col-sm-2 control-label">
+                        验证码：
+                    </label>
+                    <div class="col-sm-7">
+                        <input type="text" id="validateCode" class="form-control" placeholder="验证码" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-control" style="background-color:gray;" type="button" id="code" />
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-2">
+                        <button type="submit" id="login" class="btn btn-default">登录</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Content-Main">
+            <p class="lead">杭州携蓝环保科技有限公司致力于柴油机尾气净化技术的研究以及相关产品的市场推广。是中华环保联合会常务理事单位。我司独创研发的无需添加剂主动再生技术型高效柴油机尾气净化器（DPF+DOC），填补同类产品技术空白，达到国内外技术领先水平，净化PM、CO、HC等污染物的净化效果。完全满足国Ⅳ、国Ⅴ排放标准。产品荣获中国交通企业管理协会“交通运输企业节能环保推荐产品”称号。</p>
+        </div>
+        <div class="Clear"><!--如何你上面用到float,下面布局开始前最好清除一下。--></div>
+
+
+    </div>
+    <script type="text/javascript">
+        seajs.use(['$', 'login'], function ($, login) {;
+            $(document).ready(function () {
+                login.init();
+
+            });
+        });
+    </script>

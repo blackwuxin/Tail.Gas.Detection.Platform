@@ -1,0 +1,67 @@
+﻿<style type="text/css">
+    td {
+        word-wrap: break-word;
+        word-break: break-all;
+        white-space: normal;
+    }
+</style>
+<form id="search_form" class="ng-pristine ng-valid" method="post">
+    <div class="col-md-12">
+        <div class="form-group col-md-3">
+            <label class="col-sm-3 control-label">车牌号：</label>
+            <div class="col-sm-9">
+                <input type="text" id="CarNo" class="form-control ng-pristine ng-valid" placeholder="车牌号">
+            </div>
+        </div>
+        <div class="form-group col-md-3">
+            <label class="col-sm-3 control-label">车辆类别：</label>
+            <div class="col-sm-9">
+                <select id="Category" name="Category" class="form-control ng-pristine ng-valid" ng-model="queryObj.appCategoryId" ng-options="cat.id as cat.name for cat in appCategories"></select>
+            </div>
+        </div>
+        <div class="form-group col-md-3">
+            <label class="col-sm-3 control-label">车辆归属地：</label>
+            <div class="col-sm-9">
+                <select id="Belong" name="Belong" class="form-control ng-pristine ng-valid" ng-model="queryObj.appCategoryId" ng-options="cat.id as cat.name for cat in appCategories"></select>
+            </div>
+        </div>
+        <div class="form-group col-md-3">
+            <div class="form-group col-md-4" style="text-align: right;">
+                <input id="btn-search" type="button" class="btn btn-primary btn-sm search-btn" value="查询" />
+            </div>
+            <label class="checkbox-inline" style="margin-left:10px">
+                <input type="checkbox" id="autoscroll" checked />自动滚动
+            </label>
+           
+        </div>
+    </div>
+</form>
+
+<div style="margin-top: 20px;">
+    <table id="pclist" class="table table-striped table-bordered  table-hover" cellspacing="0">
+        <thead>
+            <tr style="background-color: #337ab7; color: white;">
+                <th width="10%" class="text-center">车牌号</th>
+                <th width="10%" class="text-center">车辆颜色</th>
+                <th width="10%" class="text-center">类别</th>
+                <th width="10%" class="text-center">归属地</th>
+                <th width="10%" class="text-center">度</th>
+                <th width="10%" class="text-center">压力</th>
+                <th width="10%" class="text-center">运行状态</th>
+                <th width="10%" class="text-center">时间</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+    </table>
+</div>
+
+
+<script type="text/javascript">
+    seajs.use(['$', 'carstatusinfo'], function ($, carstatusinfo) {;
+        $(document).ready(function () {
+            carstatusinfo.init();
+                     
+        });
+    });
+</script>

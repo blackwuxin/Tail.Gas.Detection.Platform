@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cardbModelStoreContainer" CdmEntityContainer="cardbEntities1">
+    <EntitySetMapping Name="test">
+      <EntityTypeMapping TypeName="cardbModel.test">
+        <MappingFragment StoreEntitySet="test">
+          <ScalarProperty Name="datetime" ColumnName="datetime" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

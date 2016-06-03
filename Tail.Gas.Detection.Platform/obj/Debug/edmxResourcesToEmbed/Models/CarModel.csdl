@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cardbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CarInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Belong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EngineNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OriginalEmissionValues" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProductModel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="UserInfo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IndividualCompany" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telphone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Data_CreateTime" Type="DateTime" Precision="3" />
+    <Property Name="Data_LastChangeTime" Type="DateTime" Precision="3" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedCompany" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CarType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CarStatusInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CarNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProvinceNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RegionNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Speed" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PositionXDegree" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PositionXM" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PositionXS" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PositionYDegree" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PositionYM" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PositionYS" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="TemperatureBefore" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="TemperatureAfter" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SensorNum" Type="Int32" />
+    <Property Name="LiquidHeight" Type="Int32" />
+    <Property Name="SystemStatus" Type="Int32" />
+    <Property Name="Data_CreateTime" Type="DateTime" Precision="3" />
+    <Property Name="Data_LastChangeTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CarStatusInfo1" Relationship="Self.FK_CarStatusInfo_CarStatusInfo" FromRole="CarStatusInfo" ToRole="CarStatusInfo1" />
+    <NavigationProperty Name="CarStatusInfo2" Relationship="Self.FK_CarStatusInfo_CarStatusInfo" FromRole="CarStatusInfo1" ToRole="CarStatusInfo" />
+  </EntityType>
+  <Association Name="FK_CarStatusInfo_CarStatusInfo">
+    <End Role="CarStatusInfo" Type="Self.CarStatusInfo" Multiplicity="1" />
+    <End Role="CarStatusInfo1" Type="Self.CarStatusInfo" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CarStatusInfo">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CarStatusInfo1">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="cardbEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CarInfo" EntityType="Self.CarInfo" />
+    <EntitySet Name="CarStatusInfo" EntityType="Self.CarStatusInfo" />
+    <AssociationSet Name="FK_CarStatusInfo_CarStatusInfo" Association="Self.FK_CarStatusInfo_CarStatusInfo">
+      <End Role="CarStatusInfo" EntitySet="CarStatusInfo" />
+      <End Role="CarStatusInfo1" EntitySet="CarStatusInfo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
