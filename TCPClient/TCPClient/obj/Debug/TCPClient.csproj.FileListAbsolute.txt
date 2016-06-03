@@ -1,0 +1,6 @@
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPClient\TCPClient\bin\Debug\TCPClient.exe.config
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPClient\TCPClient\bin\Debug\TCPClient.exe
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPClient\TCPClient\bin\Debug\TCPClient.pdb
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPClient\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPClient\TCPClient\obj\Debug\TCPClient.exe
+D:\wxx\workspace\Tail.Gas.Detection.Platform\TCPClient\TCPClient\obj\Debug\TCPClient.pdb

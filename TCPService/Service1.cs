@@ -53,7 +53,7 @@ namespace TCPService
         /// </summary>
         public void ThreadFunction()
         {
-            tcpServer.Start(4);
+            tcpServer.Start(2000);
             while (true)
             {
                 sc = tcpServer.AcceptSocket();
@@ -63,11 +63,15 @@ namespace TCPService
                     {
                         try
                         {
-                            ns = new NetworkStream(sc);
-                            sr = new StreamReader(ns);
-                            sw = new StreamWriter(ns);
-                            clientReq = sr.ReadLine();
+                            var clientReq = Receive(sc, 10000);
+                            //ns = new NetworkStream(sc);
+                            //sr = new StreamReader(ns);
+                            //sw = new StreamWriter(ns);
+                            //clientReq = sr.ReadLine();
+                            Console.WriteLine(clientReq);
                             logger.Info(clientReq);
+                            sc.Send(new byte[] { 0x55, 0xAA, 0x03, 0x03 });
+                            // DestroySocket(sc);
                             string result = inputdata.InputCheckData(clientReq);
                             logger.Info(result);
                         }
@@ -84,13 +88,9 @@ namespace TCPService
                 catch (IOException ex)
                 {
                     logger.Error(ex);
-                    sw.WriteLine("Stop");
                 }
                 try
                 {
-                    sw.Close();
-                    sr.Close();
-                    ns.Close();
                     sc.Close();
                     clientReq = null;
                 }
@@ -99,6 +99,39 @@ namespace TCPService
                     logger.Error(ex);
                 }
             }
+        }
+
+        private static string Receive(Socket socket, int timeout)
+        {
+            string result = string.Empty;
+            socket.ReceiveTimeout = timeout;
+            List<byte> data = new List<byte>();
+            byte[] buffer = new byte[1024];
+            int length = 0;
+            try
+            {
+                while ((length = socket.Receive(buffer)) > 0)
+                {
+                    for (int j = 0; j < length; j++)
+                    {
+                        data.Add(buffer[j]);
+                    }
+                    if (length < buffer.Length)
+                    {
+                        break;
+                    }
+                }
+            }
+            catch(Exception ex) {
+                logger.Error(ex);
+            }
+            var s = "";
+            foreach (byte b in data)
+            {
+                s += b.ToString("X2");
+                s += "";
+            }
+            return s;
         }
     }
 

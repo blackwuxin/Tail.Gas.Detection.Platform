@@ -46,6 +46,9 @@ namespace TCPService
                 {
                     return "error";
                 }
+                InputData2(data);
+                logger.Info("data:" + data);
+
                 CarStatusInfo carstatus = new CarStatusInfo();
                 carstatus.ProvinceNo = CheckProvience(data.Substring(10, 2));
                 carstatus.RegionNo = Chr(Convert.ToInt32(data.Substring(12, 2), 16));
@@ -62,7 +65,7 @@ namespace TCPService
                 carstatus.TemperatureBefore = Convert.ToInt32(data.Substring(54, 2), 16) * 256 + Convert.ToInt32(data.Substring(56, 2), 16);
                 carstatus.TemperatureAfter = Convert.ToInt32(data.Substring(58, 2), 16) * 256 + Convert.ToInt32(data.Substring(60, 2), 16);
                 carstatus.SensorNum = Convert.ToDecimal(Convert.ToInt32(data.Substring(62, 2), 16) / 10.0);
-                carstatus.LiquidHeight = Convert.ToInt32(data.Substring(64, 2), 16);
+                carstatus.LiquidHeight = Convert.ToInt32(data.Substring(64, 2), 16) == 255 ? 0 : Convert.ToInt32(data.Substring(64, 2), 16);
                 carstatus.SystemStatus = Convert.ToInt32(data.Substring(68, 2), 16);
                 carstatus.Data_CreateTime = DateTime.Now;
                 carstatus.Data_LastChangeTime = DateTime.Now;
@@ -70,8 +73,7 @@ namespace TCPService
                 cardb.CarStatusInfo.Add(carstatus);
                 cardb.SaveChanges();
 
-                InputData2(data);
-                logger.Info("data:" + data);
+
                 return "success";
             }
             catch (Exception ex)

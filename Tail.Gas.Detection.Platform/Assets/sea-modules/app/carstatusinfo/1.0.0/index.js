@@ -20,7 +20,7 @@
         });
 
         interval = setInterval(function () {
-            if ($("#pclist_next").attr("class").indexOf("disabled") > -1) {
+            if ($("#pclist_next").attr("class") && $("#pclist_next").attr("class").indexOf("disabled") > -1) {
                 table.fnPageChange(0);
             }
             else {

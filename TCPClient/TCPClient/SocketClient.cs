@@ -3,22 +3,19 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading;
 
-namespace Test
+namespace TCPClient
 {
-   public class  ScoketTest
+    public static class SocketClient
     {
         private static Encoding encode = Encoding.Default;
-        Socket listenSocket;
-        Thread newThread;
         /// <summary>
         /// 监听请求
         /// </summary>
         /// <param name="port"></param>
-        public  void Listen(int port)
+        public static void Listen(int port)
         {
-            listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Socket listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             listenSocket.Bind(new IPEndPoint(IPAddress.Any, port));
             listenSocket.Listen(2000);
             Console.WriteLine("Listen " + port + " ...");
@@ -28,7 +25,7 @@ namespace Test
                 string receiveData = Receive(acceptSocket, 5000); //5 seconds timeout.
                 Console.WriteLine("Receive：" + receiveData);
                 //acceptSocket.Send(encode.GetBytes("ok"));
-                acceptSocket.Send(new byte[]{0x55,0xAA,0x03,0x03});
+                acceptSocket.Send(encode.GetBytes("55AA0303"));
                 DestroySocket(acceptSocket); //import
             }
         }
@@ -79,10 +76,6 @@ namespace Test
                 }
             }
             catch { }
-            //if (data.Count > 0)
-            //{
-            //    result = encode.GetString(data.ToArray(), 0, data.Count);
-            //}
             var s = "";
             foreach (byte b in data)
             {
@@ -90,6 +83,7 @@ namespace Test
                 s += "";
             }
             return s;
+           
         }
         /// <summary>
         /// 销毁Socket对象
@@ -103,8 +97,5 @@ namespace Test
             }
             socket.Close();
         }
-
-
-     
     }
 }

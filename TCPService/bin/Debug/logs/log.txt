@@ -30,3 +30,21 @@ INFO  2016-06-01 18:05:29,224 11551740ms Service1               ThreadFunction  
 INFO  2016-06-01 18:05:34,706 11557223ms Service1               ThreadFunction     - 55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
 INFO  2016-06-01 18:05:34,711 11557228ms InputData              InputCheckData     - data:55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
 INFO  2016-06-01 18:05:34,711 11557228ms Service1               ThreadFunction     - success
+INFO  2016-06-03 21:39:48,464 19964ms Service1               ThreadFunction     - 55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
+INFO  2016-06-03 21:39:48,719 20220ms InputData              InputCheckData     - data:55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
+INFO  2016-06-03 21:39:48,822 20323ms Service1               ThreadFunction     - success
+INFO  2016-06-03 21:41:07,610 99110ms Service1               ThreadFunction     - 55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
+INFO  2016-06-03 21:41:07,614 99114ms InputData              InputCheckData     - data:55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
+INFO  2016-06-03 21:41:07,616 99116ms Service1               ThreadFunction     - success
+ERROR 2016-06-03 21:41:26,086 117586ms Service1               Receive            - System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 TCPService.Service1.Receive(Socket socket, Int32 timeout) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\Service1.cs:行号 113
+INFO  2016-06-03 21:41:26,097 117597ms Service1               ThreadFunction     - 
+INFO  2016-06-03 21:41:26,097 117597ms Service1               ThreadFunction     - error
+ERROR 2016-06-03 21:41:36,600 128100ms Service1               Receive            - System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 TCPService.Service1.Receive(Socket socket, Int32 timeout) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\TCPService\Service1.cs:行号 113
+INFO  2016-06-03 21:41:36,600 128100ms Service1               ThreadFunction     - 
+INFO  2016-06-03 21:41:36,600 128100ms Service1               ThreadFunction     - error

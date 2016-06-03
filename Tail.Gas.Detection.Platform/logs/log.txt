@@ -12685,3 +12685,456 @@ ERROR 2016-06-02 20:36:39,785 669247ms monitor                sendSMS           
    在 Top.Api.DefaultTopClient.Execute[T](ITopRequest`1 request, String session)
    在 Top.Api.DefaultTopClient.Execute[T](ITopRequest`1 request)
    在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendSMS(String carno, String telphone)
+INFO  2016-06-03 21:28:45,401 23672ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:28:49,839 28110ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:28:54,947 33218ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:28:59,839 38110ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:29:04,910 43181ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:29:54,692 92963ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:00,356 98627ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:05,356 103627ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:10,359 108630ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:15,361 113632ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:20,360 118631ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:25,359 123630ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:30,352 128623ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:35,354 133625ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:40,366 138637ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:45,356 143627ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:50,355 148626ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:30:55,357 153628ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:00,358 158629ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:05,356 163627ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:10,366 168637ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:15,361 173632ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:20,380 178651ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:25,362 183633ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:30,363 188634ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:35,363 193634ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:40,366 198637ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:45,586 203856ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:50,367 208638ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:31:55,367 213638ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:00,370 218641ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:05,369 223640ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:10,370 228641ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:15,370 233641ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:20,373 238644ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:25,373 243644ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:30,375 248646ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:35,376 253647ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:40,374 258645ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:45,378 263649ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:50,379 268650ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:32:55,379 273650ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:00,379 278650ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:05,381 283652ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:10,386 288657ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:15,383 293654ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:20,384 298655ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:25,386 303657ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:30,389 308660ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:35,388 313659ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:40,389 318660ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:45,397 323668ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:50,390 328661ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:33:55,390 333661ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:00,391 338662ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:05,394 343665ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:10,393 348664ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:15,394 353665ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:20,394 358665ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:25,396 363667ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:30,410 368681ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:35,397 373668ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:40,399 378670ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:45,400 383671ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:50,417 388688ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:34:55,402 393673ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:00,404 398675ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:05,403 403674ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:10,406 408677ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:15,405 413676ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:20,407 418678ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:25,407 423678ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:30,410 428681ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:35,409 433680ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:40,411 438682ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:45,412 443683ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:50,411 448682ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:35:55,414 453685ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:00,420 458691ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:05,417 463688ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:10,421 468692ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:15,417 473688ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:20,418 478689ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:25,419 483690ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:30,427 488698ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:35,421 493692ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:40,422 498693ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:45,424 503695ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:50,423 508694ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:36:55,426 513697ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:00,425 518696ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:05,426 523697ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:10,427 528698ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:15,444 533715ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:20,431 538702ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:25,430 543701ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:30,431 548702ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:35,434 553705ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:40,434 558705ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:45,434 563705ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:50,436 568707ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:37:55,435 573706ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:00,435 578706ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:05,438 583709ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:10,439 588710ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:15,440 593711ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:20,442 598713ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-03 21:38:22,932 601203ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-03 21:38:22,936 601207ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+INFO  2016-06-03 21:38:25,441 603712ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:30,443 608714ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:35,443 613714ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:40,444 618715ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:45,458 623729ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:50,447 628718ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:38:55,448 633719ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:00,450 638721ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:05,452 643723ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:10,451 648722ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:15,454 653725ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:20,457 658728ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:25,459 663730ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:30,467 668738ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:35,455 673726ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:40,455 678726ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:45,457 683728ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:50,458 688729ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:39:55,461 693732ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:00,467 698738ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:05,462 703733ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:10,462 708733ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:15,463 713734ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:20,463 718734ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:25,466 723737ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:30,467 728738ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:35,466 733737ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:40,467 738738ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:45,469 743740ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:50,470 748741ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:40:55,470 753741ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:00,471 758742ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:05,471 763742ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:10,476 768747ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:15,474 773745ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:20,479 778750ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:25,475 783746ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:30,478 788749ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:35,481 793752ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:40,479 798750ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:45,481 803752ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:50,481 808752ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:41:55,482 813753ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:00,484 818755ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:05,495 823766ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:10,484 828755ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:15,487 833758ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:20,487 838758ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:25,488 843759ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:30,547 848818ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:35,490 853761ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:40,490 858761ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:45,493 863764ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:50,492 868763ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:42:55,499 873770ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:00,494 878765ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:05,504 883775ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:10,497 888768ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:15,498 893769ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:20,497 898768ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:25,500 903771ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:30,499 908770ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:35,503 913774ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:40,502 918773ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:45,502 923773ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:50,503 928774ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:43:55,505 933776ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:00,505 938776ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:05,505 943776ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:10,508 948779ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:15,509 953780ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:20,509 958780ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:25,511 963782ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:30,527 968798ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:35,512 973783ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:40,517 978788ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:45,514 983785ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:50,517 988788ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:44:55,515 993786ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:00,519 998790ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:05,527 1003798ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:10,519 1008790ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:15,521 1013792ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:20,521 1018792ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:25,521 1023792ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:30,522 1028793ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:35,526 1033797ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:40,526 1038797ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:45,531 1043802ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:50,529 1048800ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:45:55,526 1053797ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:00,528 1058799ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:05,530 1063801ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:10,530 1068801ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:15,533 1073804ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:20,532 1078803ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:25,532 1083803ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:30,535 1088806ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:35,535 1093806ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:40,536 1098807ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:45,538 1103809ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:50,539 1108810ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:46:55,543 1113814ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:00,541 1118812ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:05,542 1123813ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:10,543 1128814ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:15,544 1133815ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:20,543 1138814ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:25,543 1143814ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:30,546 1148817ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:35,546 1153817ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:40,551 1158822ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:45,548 1163819ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:50,550 1168821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:47:55,550 1173821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:00,552 1178823ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:05,556 1183827ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:10,555 1188826ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:15,554 1193825ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:20,557 1198828ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-03 21:48:22,841 1201112ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-03 21:48:22,842 1201113ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+INFO  2016-06-03 21:48:25,557 1203828ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:30,558 1208829ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:35,558 1213829ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:40,560 1218831ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:45,559 1223830ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:50,561 1228832ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:48:55,561 1233832ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:00,564 1238835ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:05,564 1243835ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:10,564 1248835ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:15,568 1253839ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:20,566 1258837ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:25,568 1263839ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:30,585 1268856ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:35,570 1273841ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:40,570 1278841ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:45,572 1283843ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:50,572 1288843ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:49:55,575 1293846ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:00,574 1298845ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:05,584 1303855ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:10,575 1308846ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:15,576 1313847ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:20,578 1318849ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:25,584 1323855ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:30,586 1328857ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:35,580 1333851ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:40,583 1338854ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:45,582 1343853ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:50,588 1348859ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:50:55,585 1353856ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:00,589 1358860ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:05,586 1363857ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:10,588 1368859ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:15,588 1373859ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:20,590 1378861ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:25,590 1383861ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:30,592 1388863ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:35,592 1393863ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:40,593 1398864ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:45,595 1403866ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:50,596 1408867ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:51:55,595 1413866ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:00,598 1418869ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:05,599 1423870ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:10,598 1428869ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:15,602 1433873ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:20,601 1438872ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:25,601 1443872ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:30,602 1448873ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:35,603 1453874ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:40,604 1458875ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:45,610 1463881ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:50,608 1468879ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:52:55,608 1473879ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:00,609 1478880ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:05,611 1483882ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:10,613 1488884ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:15,614 1493885ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:20,629 1498900ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:25,615 1503886ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:30,615 1508886ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:35,614 1513885ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:40,616 1518887ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:45,617 1523888ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:50,618 1528889ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:53:55,618 1533889ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:00,621 1538892ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:05,622 1543893ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:10,621 1548892ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:15,625 1553896ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:20,624 1558895ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:24,535 1562806ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:29,563 1567834ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:34,538 1572809ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:39,538 1577809ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:44,540 1582811ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:49,541 1587812ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:54,541 1592812ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:54:59,542 1597813ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:04,543 1602814ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:09,543 1607814ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:14,545 1612816ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:19,545 1617816ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:24,548 1622819ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:29,550 1627821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:34,550 1632821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:39,549 1637820ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:44,550 1642821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:49,552 1647823ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:54,555 1652826ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:55:59,552 1657823ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:04,555 1662826ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:09,555 1667826ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:14,556 1672827ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:19,557 1677828ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:24,562 1682833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:29,559 1687830ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:34,561 1692832ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:39,562 1697833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:44,562 1702833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:49,644 1707915ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:54,570 1712841ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:56:59,565 1717836ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:04,567 1722838ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:09,570 1727841ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:14,572 1732843ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:19,760 1738031ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:24,570 1742841ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:29,572 1747843ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:34,572 1752843ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:39,573 1757844ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:44,575 1762846ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:49,582 1767853ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:54,575 1772846ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:57:59,577 1777848ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:04,576 1782847ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:09,590 1787861ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:14,579 1792850ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:19,579 1797850ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-03 21:58:23,006 1801277ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-03 21:58:23,007 1801278ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+INFO  2016-06-03 21:58:24,580 1802851ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:29,582 1807853ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:34,582 1812853ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:39,584 1817855ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:44,585 1822856ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:49,585 1827856ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:54,588 1832859ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:58:59,587 1837858ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:04,589 1842860ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:09,590 1847861ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:14,591 1852862ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:19,594 1857865ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:24,593 1862864ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:29,609 1867880ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:34,594 1872865ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:39,596 1877867ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
