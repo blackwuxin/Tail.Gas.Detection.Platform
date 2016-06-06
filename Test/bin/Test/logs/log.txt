@@ -88,24 +88,3 @@ INFO  2016-06-06 10:35:36,708 13429ms Program                ThreadFunction     
 INFO  2016-06-06 10:35:51,320 28041ms Program                ThreadFunction     - 55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
 INFO  2016-06-06 10:35:51,670 28391ms InputData              InputCheckData     - data:55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
 INFO  2016-06-06 10:35:51,824 28545ms Program                ThreadFunction     - success
-ERROR 2016-06-06 12:37:37,158 13917ms Program                Receive            - System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
-   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
-   在 Test.Program.Receive(Socket socket, Int32 timeout) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Test\Program.cs:行号 102
-INFO  2016-06-06 12:37:37,177 13936ms Program                ThreadFunction     - 
-INFO  2016-06-06 12:37:37,178 13937ms Program                ThreadFunction     - error
-ERROR 2016-06-06 12:38:05,794 42553ms Program                Receive            - System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
-   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
-   在 Test.Program.Receive(Socket socket, Int32 timeout) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Test\Program.cs:行号 102
-INFO  2016-06-06 12:38:21,590 58349ms Program                ThreadFunction     - 
-INFO  2016-06-06 12:38:21,590 58349ms Program                ThreadFunction     - error
-INFO  2016-06-06 12:39:46,971 46055ms Program                ThreadFunction     - 55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
-INFO  2016-06-06 12:39:47,511 46595ms InputData              InputCheckData     - data:55AA0100003342313836363900000000040003FFFFFFFFFFFFFFFF0000000000FF040000000000000045
-INFO  2016-06-06 12:39:47,642 46726ms Program                ThreadFunction     - success
-ERROR 2016-06-06 12:50:02,051 79141ms Program                Receive            - System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
-   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
-   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
-   在 Test.Program.Receive(Socket socket, Int32 timeout) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Test\Program.cs:行号 102
-INFO  2016-06-06 12:50:02,069 79159ms Program                ThreadFunction     - 
-INFO  2016-06-06 12:50:02,071 79161ms Program                ThreadFunction     - error

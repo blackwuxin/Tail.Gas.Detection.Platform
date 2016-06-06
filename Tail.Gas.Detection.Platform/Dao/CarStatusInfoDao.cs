@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -32,52 +33,46 @@ namespace Tail.Gas.Detection.Platform.Dao
             }
         }
 
-        public static void GetNormalListByPage(string CarNo,string Category, string Belong,  ref JArray messagelist)
+        public static void GetNormalListByPage(string CarNo,string Category, string Belong, int pagesize, int pageNo, out long totalCount, ref JArray messagelist)
         {
-
+            totalCount = 0;
             try
             {
-                string sql = "select CarNo,Color,Category,Belong,TemperatureBefore,SensorNum,SystemStatus,Data_LastChangeTime from ";
-                string table = @"select b.CarNo,a.Color,a.Category,a.Belong,b.TemperatureBefore,b.SensorNum,b.SystemStatus,b.Data_LastChangeTime
-                          from carinfo a,carstatusinfo b
-                          where b.SystemStatus = 0 and a.no = b.carno ";
-                string sqlwhere = "";
+               
+                //计算ROWNUM
+                int fromRowNum = (pageNo - 1) * pagesize + 1;
+                int endRowNum = pagesize * pageNo;
+                List<SqlParameter> sqlparlist = new List<SqlParameter>();
+                StringBuilder whereCondition = new StringBuilder();
+                whereCondition.Append(" and b.SystemStatus = 0 ");
                 if (!string.IsNullOrEmpty(Category))
                 {
-                    sqlwhere += "and a.Category = '" + Category + "'";
+                    whereCondition.Append(" and a.Category = '" + Category + "'");
                 }
                 if (!string.IsNullOrEmpty(Belong))
                 {
-                    sqlwhere += "and a.Belong ='" + Belong + "'";
+                    whereCondition.Append(" and a.Belong ='" + Belong + "'");
                 }
                 if (!string.IsNullOrEmpty(CarNo))
                 {
-                    sqlwhere += "and a.no ='" + CarNo + "'";
+                    whereCondition.Append(" and a.no ='" + CarNo + "'");
                 }
+                StringBuilder sbSql = new StringBuilder();
+				sbSql.Append(string.Format(CTE_SQL_LIST, whereCondition));
+                sbSql.Append(SQL_LIST_FROM_CTE);
+                StringBuilder sbSql2 = new StringBuilder();
+                sbSql2.Append(string.Format(CTE_SQL_LIST, whereCondition));
+                sbSql2.Append(SQL_COUNT);
+                
 
-                string excutesql = sql + "(" + table + sqlwhere + ") c where not exists(select 1 from (" + table + sqlwhere + ") d where CarNo = c.CarNo and Data_LastChangeTime > c.Data_LastChangeTime)";
+                sqlparlist.Add(new SqlParameter("@from",fromRowNum));
+                sqlparlist.Add(new SqlParameter("@end",endRowNum));
 
-                using (cardbEntities cardb = new cardbEntities())
+                SqlParameter[] sqlp = sqlparlist.ToArray();
+                using(cardbEntities cardb = new cardbEntities())
                 {
-                    //var query =from a in cardb.CarInfo
-                    //             join ar in cardb.CarStatusInfo
-                    //             on a.NO equals ar.CarNo
-                    //             where ar.SystemStatus == 0
-                    //             where a.Category.Contains(Category)
-                    //             where a.Belong.Contains(Belong)
-                    //             select new CarStatus
-                    //             {
-                    //                 CarNo = a.NO,
-                    //                 Color = a.Color,
-                    //                 Category = a.Category,
-                    //                 Belong = a.Belong,
-                    //                 TemperatureBefore = ar.TemperatureBefore,
-                    //                 SensorNum = ar.SensorNum,
-                    //                 SystemStatus = ar.SystemStatus,
-                    //                 Data_LastChangeTime = ar.Data_LastChangeTime
-                    //             });
-                    var query = cardb.Database.SqlQuery<CarStatus>(excutesql);
-
+                    totalCount = cardb.Database.SqlQuery<int>(sbSql2.ToString()).FirstOrDefault();
+                    var query = cardb.Database.SqlQuery<CarStatus>(sbSql.ToString(), sqlp);
                     foreach (var item in query)
                     {
                         JObject joRow = new JObject();
@@ -101,52 +96,47 @@ namespace Tail.Gas.Detection.Platform.Dao
             
         }
 
-        public static void GetErrorListByPage(string CarNo,string Category, string Belong, ref JArray messagelist)
+        public static void GetErrorListByPage(string CarNo, string Category, string Belong, int pagesize, int pageNo, out long totalCount, ref JArray messagelist)
         {
 
+            totalCount = 0;
             try
             {
-                string sql = "select CarNo,Color,Category,Belong,TemperatureBefore,SensorNum,SystemStatus,Data_LastChangeTime from ";
-                string table = @"select b.CarNo,a.Color,a.Category,a.Belong,b.TemperatureBefore,b.SensorNum,b.SystemStatus,b.Data_LastChangeTime
-                          from carinfo a,carstatusinfo b
-                          where b.SystemStatus != 0 and a.no = b.carno ";
-                string sqlwhere = "";
+
+                //计算ROWNUM
+                int fromRowNum = (pageNo - 1) * pagesize + 1;
+                int endRowNum = pagesize * pageNo;
+                List<SqlParameter> sqlparlist = new List<SqlParameter>();
+                StringBuilder whereCondition = new StringBuilder();
+                whereCondition.Append(" and b.SystemStatus != 0 ");
                 if (!string.IsNullOrEmpty(Category))
                 {
-                    sqlwhere += "and a.Category = '" + Category + "'";
+                    whereCondition.Append(" and a.Category = '" + Category + "'");
                 }
                 if (!string.IsNullOrEmpty(Belong))
                 {
-                    sqlwhere += "and a.Belong ='" + Belong + "'";
+                    whereCondition.Append(" and a.Belong ='" + Belong + "'");
                 }
                 if (!string.IsNullOrEmpty(CarNo))
                 {
-                    sqlwhere += "and a.no ='" + CarNo + "'";
+                    whereCondition.Append(" and a.no ='" + CarNo + "'");
                 }
+                StringBuilder sbSql = new StringBuilder();
+                sbSql.Append(string.Format(CTE_SQL_LIST, whereCondition));
+                sbSql.Append(SQL_LIST_FROM_CTE);
+                StringBuilder sbSql2 = new StringBuilder();
+                sbSql2.Append(string.Format(CTE_SQL_LIST, whereCondition));
+                sbSql2.Append(SQL_COUNT);
 
-                string excutesql = sql + "(" + table + sqlwhere + ") c where not exists(select 1 from (" + table + sqlwhere + ") d where CarNo = c.CarNo and Data_LastChangeTime > c.Data_LastChangeTime)";
 
+                sqlparlist.Add(new SqlParameter("@from", fromRowNum));
+                sqlparlist.Add(new SqlParameter("@end", endRowNum));
+
+                SqlParameter[] sqlp = sqlparlist.ToArray();
                 using (cardbEntities cardb = new cardbEntities())
                 {
-                    //var query =from a in cardb.CarInfo
-                    //             join ar in cardb.CarStatusInfo
-                    //             on a.NO equals ar.CarNo
-                    //             where ar.SystemStatus == 0
-                    //             where a.Category.Contains(Category)
-                    //             where a.Belong.Contains(Belong)
-                    //             select new CarStatus
-                    //             {
-                    //                 CarNo = a.NO,
-                    //                 Color = a.Color,
-                    //                 Category = a.Category,
-                    //                 Belong = a.Belong,
-                    //                 TemperatureBefore = ar.TemperatureBefore,
-                    //                 SensorNum = ar.SensorNum,
-                    //                 SystemStatus = ar.SystemStatus,
-                    //                 Data_LastChangeTime = ar.Data_LastChangeTime
-                    //             });
-                    var query = cardb.Database.SqlQuery<CarStatus>(excutesql);
-
+                    totalCount = cardb.Database.SqlQuery<int>(sbSql2.ToString()).FirstOrDefault();
+                    var query = cardb.Database.SqlQuery<CarStatus>(sbSql.ToString(), sqlp);
                     foreach (var item in query)
                     {
                         JObject joRow = new JObject();
@@ -182,5 +172,11 @@ namespace Tail.Gas.Detection.Platform.Dao
             public int? SystemStatus { get; set; }
             public DateTime? Data_LastChangeTime { get; set; }
         }
+
+        private const string CTE_SQL_LIST = @"WITH CTE AS (select  ROW_NUMBER() OVER(ORDER BY a.no ASC ) as RowNumber, b.CarNo,a.Color,a.Category,a.Belong,b.TemperatureBefore,b.SensorNum,b.SystemStatus,b.Data_LastChangeTime from (select *,ROW_NUMBER() over(partition by carno order by Data_LastChangeTime asc) rn from CarStatusInfo) b ,carinfo a 
+                                              where b.rn<=1 and a.no = b.carno {0})";
+        private const string SQL_LIST_FROM_CTE = "SELECT CarNo,Color,Category,Belong,TemperatureBefore,SensorNum,SystemStatus,Data_LastChangeTime  FROM CTE Where RowNumber  BETWEEN @from AND @end ";
+        private const string SQL_COUNT = @"SELECT COUNT(*) AS cnt FROM CTE ";
+
     }
 }

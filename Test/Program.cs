@@ -48,7 +48,7 @@ namespace Test
                     {
                         try
                         {
-                            var clientReq = Receive(sc, 5000);
+                            var clientReq = Receive(sc, 60000);
                             //ns = new NetworkStream(sc);
                             //sr = new StreamReader(ns);
                             //sw = new StreamWriter(ns);
@@ -60,17 +60,13 @@ namespace Test
                             string result = inputdata.InputCheckData(clientReq);
                             logger.Info(result);
                         }
-                        catch (OutOfMemoryException ex)
-                        {
-                            logger.Error(ex);
-                        }
-                        catch (IOException ex)
+                        catch (Exception ex)
                         {
                             logger.Error(ex);
                         }
                     }
                 }
-                catch (IOException ex)
+                catch (Exception ex)
                 {
                     logger.Error(ex);
                 }
@@ -79,7 +75,7 @@ namespace Test
                     sc.Close();
                     clientReq = null;
                 }
-                catch (IOException ex)
+                catch (Exception ex)
                 {
                     logger.Error(ex);
                 }
@@ -88,7 +84,7 @@ namespace Test
 
         public void Start()
         {
-            tcpServer = new TcpListener(new IPEndPoint(IPAddress.Any, 8889));
+            tcpServer = new TcpListener(new IPEndPoint(IPAddress.Any, 8887));
             newThread = new Thread(new ThreadStart(ThreadFunction));
             newThread.IsBackground = true;
             newThread.Start();
@@ -115,7 +111,9 @@ namespace Test
                     }
                 }
             }
-            catch { }
+            catch(Exception ex) {
+                logger.Error(ex);
+            }
             //if (data.Count > 0)
             //{
             //    result = encode.GetString(data.ToArray(), 0, data.Count);

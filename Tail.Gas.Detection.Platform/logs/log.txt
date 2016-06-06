@@ -13138,3 +13138,907 @@ INFO  2016-06-03 21:59:24,593 1862864ms CarStatusInfoDao       etNormalListByPag
 INFO  2016-06-03 21:59:29,609 1867880ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
 INFO  2016-06-03 21:59:34,594 1872865ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
 INFO  2016-06-03 21:59:39,596 1877867ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:44,596 1882867ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:49,602 1887873ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:54,618 1892889ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 21:59:59,602 1897873ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:04,606 1902877ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:09,616 1907887ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:14,603 1912874ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:19,608 1917879ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:24,605 1922876ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:29,604 1927875ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:34,606 1932877ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:39,610 1937881ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:44,610 1942881ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:49,613 1947884ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:54,609 1952880ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:00:59,616 1957887ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:04,612 1962883ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:09,659 1967930ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:14,617 1972888ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:19,613 1977884ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:24,614 1982885ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:29,670 1987941ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:34,641 1992912ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:39,632 1997903ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:44,622 2002893ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:49,620 2007891ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:54,625 2012896ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:01:59,622 2017893ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:04,632 2022903ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:09,625 2027896ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:14,626 2032897ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:19,627 2037898ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:27,330   443ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:29,628  2741ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:36,026   511ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:39,633  4118ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:44,636  9121ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:49,633 14118ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:54,633 19118ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:02:59,634 24119ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:04,633 29118ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:09,638 34123ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:14,637 39122ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:19,637 44122ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:24,637 49122ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:30,011   296ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:34,642  4926ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:39,649  9933ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:44,642 14926ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:49,645 19929ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:54,645 24929ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:03:59,647 29931ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:04,645 34929ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:09,647 39931ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:14,648 44932ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:19,648 49932ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:24,649 54933ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:29,664 59948ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:34,651 64935ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:39,654 69938ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:44,654 74938ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:49,654 79938ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:54,655 84939ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:04:59,791 90076ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:04,657 94941ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:09,658 99942ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:14,658 104942ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:19,660 109944ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:24,671 114955ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:29,663 119947ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:34,663 124947ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:39,664 129948ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:43,977 134261ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:48,964 139248ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:54,679 144963ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:05:59,681 149965ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:06:04,681 154965ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:06:09,684 159968ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:06:14,682 164966ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:06:19,684 169968ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:06:24,268 174552ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-03 22:06:29,688 179972ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-03 22:13:30,961 601245ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-03 22:13:30,963 601247ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 219.142.78.230:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-03 22:23:31,002 1201286ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 202.108.6.242:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-03 22:23:31,003 1201287ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 202.108.6.242:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+INFO  2016-06-06 11:43:28,590  9875ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:43:31,518 12803ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:43:32,244 13529ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:47:14,821 236106ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:47:19,058 240344ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:48:20,554 14233ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:04,251 57931ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:09,240 62920ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:11,950 65630ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:12,685 66365ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:23,342 77022ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:34,041 87721ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:34,515 88195ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:34,983 88662ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:35,800 89479ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:37,984 91664ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:49:54,947 108626ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 11:50:20,711 134390ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-06 11:58:07,499 601179ms monitor                sendMail           - System.Net.Mail.SmtpException: 发送邮件失败。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。 202.108.6.242:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 Tail.Gas.Detection.Platform.Bussiness.monitor.sendMail(String title, String body) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Bussiness\monitor.cs:行号 97
+ERROR 2016-06-06 15:10:12,503 29535ms CarStatusInfoDao       etNormalListByPage - System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@@SystemStatus bigint,@@from int,@@end int)SELECT COUNT(*) AS c' expects the parameter '@@SystemStatus', which was not supplied.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   在 System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 86
+ClientConnectionId:1651c71f-46d2-44a7-b182-047b70872ea6
+Error Number:8178,State:1,Class:16
+ERROR 2016-06-06 15:13:09,772 206805ms CarStatusInfoDao       etNormalListByPage - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:13:09,822 206855ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: The argument 'sql' cannot be null, empty or contain only white space.
+   在 System.Data.Entity.ModelConfiguration.Utilities.RuntimeFailureMethods.Requires(Boolean condition, String userMessage, String conditionText)
+   在 System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+INFO  2016-06-06 15:48:20,309 73165ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:20,309 73165ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:20,309 73165ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-06 15:48:20,311 73167ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 95
+INFO  2016-06-06 15:48:23,906 76762ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,652 82508ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,652 82508ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,719 82575ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,719 82575ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,778 82634ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,797 82653ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,802 82658ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,841 82697ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,881 82737ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,895 82751ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,911 82767ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,955 82811ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,994 82850ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:29,994 82850ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,027 82883ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,086 82942ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,093 82949ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,149 83005ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,156 83012ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,205 83061ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,206 83062ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,242 83098ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,250 83106ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,317 83173ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,324 83180ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,324 83180ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,333 83189ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,397 83253ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,404 83260ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,432 83288ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,432 83288ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,470 83326ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,500 83356ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,502 83358ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,559 83415ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,563 83419ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,567 83423ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,609 83465ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,659 83515ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,696 83552ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,705 83561ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,732 83588ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,752 83608ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,783 83639ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,818 83674ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,826 83682ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,855 83711ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,908 83764ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,945 83801ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,945 83801ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:30,965 83821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,017 83873ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,036 83892ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,043 83899ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,157 84013ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,157 84013ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,173 84029ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,213 84069ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,286 84142ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,335 84191ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,338 84194ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,368 84224ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,391 84247ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,405 84261ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,441 84297ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,447 84303ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,475 84331ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,500 84356ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:31,531 84387ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:48:35,090 87946ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,324 55411ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,390 55477ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,408 55495ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,416 55503ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,540 55627ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,547 55634ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,645 55732ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,665 55752ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,706 55793ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,707 55794ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,784 55871ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,833 55920ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,881 55968ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:53:58,992 56079ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:00,262 57349ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:04,166 61253ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:09,168 66255ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:14,174 71261ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:19,169 76256ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:24,172 81259ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:29,174 86261ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:34,174 91261ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:39,173 96260ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 15:54:44,176 101263ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+ERROR 2016-06-06 15:54:48,154 105241ms CarStatusInfoDao       etNormalListByPage - System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@CarNo".
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader()
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 91
+ClientConnectionId:b97acca1-76ab-47ed-a02c-6d7198129a36
+Error Number:137,State:2,Class:15
+ERROR 2016-06-06 15:54:49,279 106366ms CarStatusInfoDao       etNormalListByPage - System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@CarNo".
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader()
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 91
+ClientConnectionId:b97acca1-76ab-47ed-a02c-6d7198129a36
+Error Number:137,State:2,Class:15
+ERROR 2016-06-06 15:54:51,234 108321ms CarStatusInfoDao       etNormalListByPage - System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@CarNo".
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader()
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 91
+ClientConnectionId:b97acca1-76ab-47ed-a02c-6d7198129a36
+Error Number:137,State:2,Class:15
+ERROR 2016-06-06 15:54:54,278 111365ms CarStatusInfoDao       etNormalListByPage - System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@CarNo".
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader()
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 91
+ClientConnectionId:b97acca1-76ab-47ed-a02c-6d7198129a36
+Error Number:137,State:2,Class:15
+ERROR 2016-06-06 15:56:08,395 185482ms CarStatusInfoDao       etNormalListByPage - System.InvalidOperationException: The operation cannot be completed because the DbContext has been disposed.
+   在 System.Data.Entity.Internal.InternalContext.CheckContextNotDisposed()
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:08,420 185507ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:12,795 189881ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:12,795 189881ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:12,893 189979ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:12,893 189979ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:13,962 191049ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:13,987 191074ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:13,987 191074ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:13,987 191074ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,465 197552ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,626 197713ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,662 197749ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,662 197749ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,745 197832ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,824 197911ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,905 197992ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:20,982 198069ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:23,689 200776ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:24,229 201316ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:24,440 201527ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:25,196 202283ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 15:56:29,238 206325ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 16:05:36,244 753330ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist)
+ERROR 2016-06-06 16:09:06,616 40512ms CarStatusInfoDao       etNormalListByPage - System.ArgumentException: 另一个 SqlParameterCollection 中已包含 SqlParameter。
+   在 System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   在 System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   在 System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQueryInternal[TElement](String commandText, String entitySetName, MergeOption mergeOption, Object[] parameters)
+   在 System.Data.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQueryAsIEnumerable[TElement](String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlQuery(Type elementType, String sql, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalSqlNonSetQuery.GetEnumerator()
+   在 System.Data.Entity.Internal.InternalSqlQuery`1.GetEnumerator()
+   在 Tail.Gas.Detection.Platform.Dao.CarStatusInfoDao.GetNormalListByPage(String CarNo, String Category, String Belong, Int32 pagesize, Int32 pageNo, Int64& totalCount, JArray& messagelist) 位置 d:\wxx\workspace\Tail.Gas.Detection.Platform\Tail.Gas.Detection.Platform\Dao\CarStatusInfoDao.cs:行号 97
+INFO  2016-06-06 16:22:28,018  1519ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,018  1519ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,018  1519ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,018  1519ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,084  1585ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,182  1683ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,213  1714ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,213  1714ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,261  1762ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,267  1768ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,322  1823ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,360  1861ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,398  1899ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,438  1939ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,454  1955ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,464  1965ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,560  2061ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,560  2061ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,597  2098ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,615  2116ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,718  2219ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,726  2227ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,727  2228ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,755  2256ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,816  2317ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,845  2346ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,916  2417ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,933  2434ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,978  2479ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:28,979  2480ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,043  2544ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,105  2606ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,121  2622ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,172  2673ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,253  2754ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,264  2765ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,352  2853ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,352  2853ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,422  2923ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,436  2937ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,626  3127ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,627  3128ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,647  3148ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,651  3152ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,664  3165ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,784  3285ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,784  3285ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,831  3332ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,883  3384ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,943  3444ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,944  3445ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:29,957  3458ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,019  3520ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,114  3615ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,127  3628ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,128  3629ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,213  3714ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,328  3829ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,332  3833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,384  3885ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,384  3885ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,517  4018ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,517  4018ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,518  4019ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,630  4131ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,670  4171ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,721  4222ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,743  4244ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,754  4255ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,878  4379ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,887  4388ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,941  4442ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,944  4445ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:30,982  4483ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,044  4545ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,079  4580ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,255  4756ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,255  4756ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,263  4764ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,270  4771ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,282  4782ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,342  4842ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,444  4944ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,445  4945ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,448  4948ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,506  5007ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,700  5201ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,707  5208ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,736  5237ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,736  5237ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,884  5385ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:31,972  5473ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,054  5555ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,054  5555ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,110  5611ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,183  5684ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,332  5833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,332  5833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,332  5833ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,398  5899ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,538  6039ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,540  6041ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,725  6226ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,796  6297ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,796  6297ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,818  6319ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,946  6447ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,983  6484ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:32,983  6484ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,176  6677ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,177  6678ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,177  6678ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,232  6733ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,348  6849ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,348  6849ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,348  6849ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,400  6901ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,477  6978ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,479  6980ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,497  6998ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,551  7052ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,646  7147ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,654  7155ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,716  7217ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,783  7284ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,852  7353ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,852  7353ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:33,853  7354ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:35,404  8905ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:35,442  8943ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:37,223 10724ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:38,003 11504ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:38,571 12072ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:39,554 13055ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:40,403 13904ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:45,354 18855ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:22:46,321 19821ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:06,443 39943ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:13,258 46759ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:13,355 46856ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:17,143 50644ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:19,116 52617ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:20,905 54406ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:22,612 56113ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:24,135 57636ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:27,680 61181ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:28,307 61808ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:29,299 62800ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:23:31,049 64550ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:30,175 15795ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:32,287 17906ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:32,930 18549ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:33,371 18990ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:34,133 19752ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:37,711 23330ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:27:39,837 25457ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:44,843 30463ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:49,840 35460ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:54,840 40460ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:27:59,848 45468ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:04,842 50462ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:06,797 52416ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:11,798 57417ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:16,797 62416ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:21,792 67411ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:26,800 72419ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:31,793 77412ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:36,795 82414ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:41,798 87417ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:46,801 92420ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:51,799 97418ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:28:52,718 98337ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:28:57,721 103340ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:02,724 108343ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:07,719 113338ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:12,719 118338ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:17,721 123340ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:22,723 128342ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:27,724 133343ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:31,644 137263ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:36,521 142140ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:41,522 147141ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:29:45,914 151534ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:50,907 156527ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:52,656 158275ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:53,934 159553ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:54,444 160064ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:54,934 160554ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:55,900 161520ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:29:55,914 161534ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:00,909 166529ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:04,527 170147ms CarStatusInfoDao       GetErrorListByPage - GetErrorListByPage Success
+INFO  2016-06-06 16:30:05,379 170999ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:07,991 173610ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:11,070 176690ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:45,428 211048ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:45,859 211479ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success
+INFO  2016-06-06 16:30:46,193 211813ms CarStatusInfoDao       etNormalListByPage - GetNormalListByPage Success

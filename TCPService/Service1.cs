@@ -11,8 +11,8 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
-
+using System.Timers;
+using System.Configuration;
 namespace TCPService
 {
     public partial class Service1 : ServiceBase
@@ -30,7 +30,8 @@ namespace TCPService
         public Socket sc;
         public string clientReq;
         public readonly static log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        public static InputData inputdata = new InputData(); 
+        public static InputData inputdata = new InputData();
+        public static System.Timers.Timer timer = new System.Timers.Timer();
         public Service1()
         {
             InitializeComponent();
@@ -41,7 +42,9 @@ namespace TCPService
             tcpServer = new TcpListener(new IPEndPoint(IPAddress.Any, 8889));
             newThread = new Thread(new ThreadStart(ThreadFunction));
             newThread.IsBackground = true;
-            newThread.Start();  
+            newThread.Start();
+
+            beginChangeData();
         }
 
         protected override void OnStop()
@@ -63,7 +66,7 @@ namespace TCPService
                     {
                         try
                         {
-                            var clientReq = Receive(sc, 10000);
+                            var clientReq = Receive(sc, 60000);
                             //ns = new NetworkStream(sc);
                             //sr = new StreamReader(ns);
                             //sw = new StreamWriter(ns);
@@ -75,11 +78,8 @@ namespace TCPService
                             string result = inputdata.InputCheckData(clientReq);
                             logger.Info(result);
                         }
-                        catch (OutOfMemoryException ex)
-                        {
-                            logger.Error(ex);
-                        }
-                        catch (IOException ex)
+                      
+                        catch (Exception ex)
                         {
                             logger.Error(ex);
                         }
@@ -132,6 +132,47 @@ namespace TCPService
                 s += "";
             }
             return s;
+        }
+
+        public static void beginChangeData()
+        {
+            try
+            {
+                timer.Elapsed += new ElapsedEventHandler(ChangeData);
+                timer.Interval = Convert.ToDouble(ConfigurationManager.AppSettings["intervaltime"]);
+                timer.Start();
+                timer.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex);
+            }
+
+        }
+        public static void ChangeData(object source, ElapsedEventArgs e)
+        {
+            if (ConfigurationManager.AppSettings["isTest"] == "true")
+            {
+                try
+                {
+                    using (cardbEntities cardb = new cardbEntities())
+                    {
+                        string sql = @"
+                            update CarStatusInfo
+                            set Data_LastChangeTime = getdate()
+                            where Id in(
+                            select t.id from (select *,ROW_NUMBER() over(partition by carno order by Data_LastChangeTime asc) rn from CarStatusInfo) t where rn<=1
+                            )";
+                        var result = cardb.Database.ExecuteSqlCommand(sql);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    logger.Error(ex);
+                }
+    
+            }
+            
         }
     }
 

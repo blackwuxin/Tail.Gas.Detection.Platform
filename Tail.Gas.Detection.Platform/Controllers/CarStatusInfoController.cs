@@ -28,30 +28,21 @@ namespace Tail.Gas.Detection.Platform.Controllers
         public string query(string PageUrl, string CarNo,string Category, string Belong, int istart, int ilen)
         {
 
-            
-
             JObject joResult = new JObject();
             JArray messageList = new JArray();
+            long totalCount = 0;
             if (!string.IsNullOrEmpty(PageUrl) && PageUrl.ToLower().Contains("carstatusinfo/index") || PageUrl.Equals("/myapp/carstatusinfo"))
             {
                 CarStatusInfoDao.GetNormalListByPage(CarNo,Category,
-                    Belong, ref messageList);
+                    Belong,ilen, istart / ilen + 1, out totalCount, ref messageList);
             }
             else if (!string.IsNullOrEmpty(PageUrl) && PageUrl.ToLower().Contains("carstatusinfo/error"))
             {
-                CarStatusInfoDao.GetErrorListByPage(CarNo,Category,
-                    Belong, ref messageList);
+                CarStatusInfoDao.GetErrorListByPage(CarNo, Category,
+                    Belong, ilen, istart / ilen + 1, out totalCount, ref messageList);
             }
-            
-
-            JArray ja = new JArray();
-            foreach (var token in messageList.Skip(istart).Take(ilen))
-            {
-                ja.Add(token);
-            }
-
-            joResult["messages"] = ja;
-            joResult["total-records"] = messageList.Count;
+            joResult["messages"] = messageList;
+            joResult["total-records"] = totalCount;
             return joResult.ToString();
         }
 
